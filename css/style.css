@@ -104,9 +104,8 @@ button{ font-family:inherit; cursor:pointer; }
 
 .brand-scroller{
   max-width:1280px; margin:0 auto;
-  display:flex; gap:8px; overflow-x:auto;
+  display:flex; flex-wrap: wrap; gap:8px;
   padding: 0 24px 14px;
-  scrollbar-width: thin;
 }
 .brand-chip{
   flex:0 0 auto;
